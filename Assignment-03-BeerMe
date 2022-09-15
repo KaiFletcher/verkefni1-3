@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTV - BeerMe Portal - Assignment 3
+        .</title>
+</head>
+<body>
+    <h1>Signup Form</h1>
+    <form>
+        <label for="name">Your name:</label>
+        <input type="text" id="name" >
+        <br>
+        <label for="Age">Your age:</label>
+        <input type="number" id="Age" >
+        <br>
+        <label for="Weight">Your weight:</label>
+        <input type="number" id="Weight" >
+        <br>
+        <label for="Sex">Your sex: </label>
+        <label for="Male">Male</label>
+        <input type="radio" name="sexCheck" id="Sex" value="Male" >
+        <label for="Female">Female</label>
+        <input type="radio" name="sexCheck" id="Sex" value="Female" >
+        <label for="Other">Other</label>
+        <input type="radio" name="sexCheck" id="Sex" value="Other" >
+        <br>
+        <label for="Email">Your email: </label>
+        <input type="email" id="Email" >
+        <br>
+        <label for="Bio">Your bio:</label>
+        <input type="text" id="Bio" >
+        <br>
+        <input type="button" id="Submit" value="Submit">
+    </form>
+</body>
+</html>
